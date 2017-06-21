@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,6 +21,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
+
+        ImageView img = (ImageView)findViewById(R.id.imageView2);
+        img.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse("https://docs.google.com/spreadsheets/d/1_QK_OEyPlle5lZm_0LSSf3iuRrq7kZ0da-hAR8UYrsE/edit#gid=0"));
+                startActivity(intent);
+            }
+        });
 
         bt1 = (Button) findViewById(R.id.button1);
         bt1.setOnClickListener(new View.OnClickListener() {
