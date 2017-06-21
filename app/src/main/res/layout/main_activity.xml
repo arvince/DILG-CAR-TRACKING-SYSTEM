@@ -7,7 +7,7 @@
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
-        android:layout_height="2300dip">
+        android:layout_height="match_parent">
         tools:context="com.dilg.dilg_cartrackingsystem.MainActivity">
 
 
@@ -17,18 +17,18 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="11dp"
             app:srcCompat="@drawable/dilg" />
 
         <Button
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/imageView2"
-            android:layout_alignStart="@+id/imageView2"
+            android:textAllCaps="false"
+            android:text="Mamamayang Ayaw sa Anomalya, Mamamayang Ayaw sa Iligal na Droga (MASA-MASID)"
+            android:gravity="left|center_vertical"
             android:layout_below="@+id/imageView2"
-            android:layout_marginTop="22dp"
-            android:text="MASA MASID" />
+            android:layout_alignLeft="@+id/imageView2"
+            android:layout_alignStart="@+id/imageView2" />
 
         <Button
             android:id="@+id/button2"
@@ -37,8 +37,9 @@
             android:layout_alignLeft="@+id/button1"
             android:layout_alignStart="@+id/button1"
             android:layout_below="@+id/button1"
-            android:layout_marginTop="14dp"
-            android:text="Drug Surrenders" />
+            android:textAllCaps="false"
+            android:text="Drug Surrenders"
+            android:gravity="left|center_vertical"/>
 
         <Button
             android:id="@+id/button3"
@@ -47,8 +48,9 @@
             android:layout_alignLeft="@+id/button2"
             android:layout_alignStart="@+id/button2"
             android:layout_below="@+id/button2"
-            android:layout_marginTop="12dp"
-            android:text="Initiatives to Community-Based Rehab Report" />
+            android:textAllCaps="false"
+            android:text="Initiatives to Community-Based Rehab Report"
+            android:gravity="left|center_vertical"/>
 
         <Button
             android:id="@+id/button4"
@@ -57,8 +59,9 @@
             android:layout_alignLeft="@+id/button3"
             android:layout_alignStart="@+id/button3"
             android:layout_below="@+id/button3"
-            android:layout_marginTop="17dp"
-            android:text="Functionality of LGU Speacial Bodies" />
+            android:textAllCaps="false"
+            android:text="Functionality of LGU Speacial Bodies"
+            android:gravity="left|center_vertical"/>
 
         <Button
             android:id="@+id/button5"
@@ -67,8 +70,9 @@
             android:layout_alignLeft="@+id/button4"
             android:layout_alignStart="@+id/button4"
             android:layout_below="@+id/button4"
-            android:layout_marginTop="26dp"
-            android:text="BADAC Monitoring" />
+            android:textAllCaps="false"
+            android:text="Barangay Anti-Drug Council (BADAC) Monitoring"
+            android:gravity="left|center_vertical"/>
 
         <Button
             android:id="@+id/button6"
@@ -77,8 +81,9 @@
             android:layout_alignLeft="@+id/button5"
             android:layout_alignStart="@+id/button5"
             android:layout_below="@+id/button5"
-            android:layout_marginTop="29dp"
-            android:text="LCPC" />
+            android:textAllCaps="false"
+            android:text="Local Council for the Protection of Children (LCPC)"
+            android:gravity="left|center_vertical"/>
 
         <Button
             android:id="@+id/button7"
@@ -87,8 +92,9 @@
             android:layout_alignLeft="@+id/button6"
             android:layout_alignStart="@+id/button6"
             android:layout_below="@+id/button6"
-            android:layout_marginTop="28dp"
-            android:text="Peace and Order" />
+            android:textAllCaps="false"
+            android:text="Peace and Order and Public Safety (POPS) Plan (Draft or Approved plan of P/C/M)"
+            android:gravity="left|center_vertical"/>
 
         <Button
             android:id="@+id/button8"
@@ -97,8 +103,9 @@
             android:layout_alignLeft="@+id/button7"
             android:layout_alignStart="@+id/button7"
             android:layout_below="@+id/button7"
-            android:layout_marginTop="26dp"
-            android:text="Full Disclosure Policy" />
+            android:textAllCaps="false"
+            android:text="Full Disclosure Policy (FDP)"
+            android:gravity="left|center_vertical"/>
 
         <Button
             android:id="@+id/button9"
@@ -107,8 +114,9 @@
             android:layout_alignLeft="@+id/button8"
             android:layout_alignStart="@+id/button8"
             android:layout_below="@+id/button8"
-            android:layout_marginTop="38dp"
-            android:text="Transition Towards Federalism" />
+            android:textAllCaps="false"
+            android:text="Transition Towards Federalism"
+            android:gravity="left|center_vertical"/>
 
         <Button
             android:id="@+id/button10"
@@ -117,8 +125,9 @@
             android:layout_alignLeft="@+id/button9"
             android:layout_alignStart="@+id/button9"
             android:layout_below="@+id/button9"
-            android:layout_marginTop="37dp"
-            android:text="SGLG" />
+            android:textAllCaps="false"
+            android:text="Seal of Good Local Governance (SGLG)"
+            android:gravity="left|center_vertical"/>
 
         <Button
             android:id="@+id/button11"
@@ -127,68 +136,77 @@
             android:layout_alignLeft="@+id/button10"
             android:layout_alignStart="@+id/button10"
             android:layout_below="@+id/button10"
-            android:layout_marginTop="32dp"
-            android:text="PCF 2013" />
+            android:textAllCaps="false"
+            android:text="Performance Challenge Fund (PCF)"
+            android:gravity="left|center_vertical"/>
 
         <Button
             android:id="@+id/button12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/button11"
-            android:layout_alignRight="@+id/button11"
+            android:textAllCaps="false"
+            android:text="Citizen's Satisfaction Index System (CSIS)"
+            android:gravity="left|center_vertical"
             android:layout_below="@+id/button11"
-            android:layout_marginTop="24dp"
-            android:text="PCF 2014" />
+            android:layout_alignLeft="@+id/button11"
+            android:layout_alignStart="@+id/button11" />
 
         <Button
             android:id="@+id/button13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/button12"
-            android:layout_alignRight="@+id/button12"
+            android:layout_alignLeft="@+id/button11"
+            android:layout_alignStart="@+id/button12"
             android:layout_below="@+id/button12"
-            android:layout_marginTop="26dp"
-            android:text="PCF 2015" />
+            android:textAllCaps="false"
+            android:text="Barangay Governance Performance Management System (BGPMS)"
+            android:gravity="left|center_vertical"/>
 
         <Button
             android:id="@+id/button14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/button13"
-            android:layout_alignStart="@+id/button13"
+            android:textAllCaps="false"
+            android:text="Child-Friendly Local Governance Audit (CFLGA)"
+            android:gravity="left|center_vertical"
             android:layout_below="@+id/button13"
-            android:layout_marginTop="23dp"
-            android:text="PCF 2016" />
+            android:layout_alignLeft="@+id/button13"
+            android:layout_alignStart="@+id/button13" />
 
         <Button
             android:id="@+id/button15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/button14"
-            android:layout_alignRight="@+id/button14"
+            android:layout_alignLeft="@+id/button14"
+            android:layout_alignStart="@+id/button14"
             android:layout_below="@+id/button14"
-            android:layout_marginTop="26dp"
-            android:text="CSIS" />
+            android:textAllCaps="false"
+            android:text="Community-Based Monitoring System (CBMS)"
+            android:gravity="left|center_vertical"/>
 
         <Button
             android:id="@+id/button16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/button15"
-            android:layout_alignStart="@+id/button15"
+            android:textAllCaps="false"
+            android:text="Provincial Development and Physical Frameworks Plans (PDPFP)"
+            android:gravity="left|center_vertical"
             android:layout_below="@+id/button15"
-            android:layout_marginTop="30dp"
-            android:text="BGPMS" />
+            android:layout_alignRight="@+id/imageView2"
+            android:layout_alignEnd="@+id/imageView2"
+            android:layout_alignLeft="@+id/button15"
+            android:layout_alignStart="@+id/button15" />
 
         <Button
             android:id="@+id/button17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/button16"
-            android:layout_alignRight="@+id/button16"
+            android:layout_alignLeft="@+id/button16"
+            android:layout_alignStart="@+id/button16"
             android:layout_below="@+id/button16"
-            android:layout_marginTop="30dp"
-            android:text="CFLGA" />
+            android:textAllCaps="false"
+            android:text="Inventory of DRR-CCA Mainstreamed Comprehensive Land Use Plan (CLUP)"
+            android:gravity="left|center_vertical"/>
 
         <Button
             android:id="@+id/button18"
@@ -197,18 +215,20 @@
             android:layout_alignLeft="@+id/button17"
             android:layout_alignStart="@+id/button17"
             android:layout_below="@+id/button17"
-            android:layout_marginTop="24dp"
-            android:text="CBMS" />
+            android:textAllCaps="false"
+            android:text="CDP (DRR-CCA mainstreamed)"
+            android:gravity="left|center_vertical"/>
 
         <Button
             android:id="@+id/button19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/button18"
-            android:layout_alignRight="@+id/button18"
+            android:textAllCaps="false"
+            android:text="Inventory DRR-CCA Mainstreamed Executive Legislative Agenda (ELA)"
             android:layout_below="@+id/button18"
-            android:layout_marginTop="23dp"
-            android:text="PDPFP" />
+            android:layout_alignLeft="@+id/button14"
+            android:layout_alignStart="@+id/button14"
+            android:gravity="left|center_vertical"/>
 
         <Button
             android:id="@+id/button20"
@@ -217,8 +237,9 @@
             android:layout_alignLeft="@+id/button19"
             android:layout_alignStart="@+id/button19"
             android:layout_below="@+id/button19"
-            android:layout_marginTop="32dp"
-            android:text="CLUP" />
+            android:textAllCaps="false"
+            android:text="Inventory of Local Disaster-Risk Reduction Management Plan(LDRRMP)"
+            android:gravity="left|center_vertical"/>
 
         <Button
             android:id="@+id/button21"
@@ -227,18 +248,20 @@
             android:layout_alignLeft="@+id/button20"
             android:layout_alignStart="@+id/button20"
             android:layout_below="@+id/button20"
-            android:layout_marginTop="23dp"
-            android:text="CDP" />
+            android:textAllCaps="false"
+            android:text="Inventory of Local Climate Change Action Plan (LCCAP)"
+            android:gravity="left|center_vertical"/>
 
         <Button
             android:id="@+id/button22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/button21"
-            android:layout_alignRight="@+id/button21"
+            android:layout_alignLeft="@+id/button21"
+            android:layout_alignStart="@+id/button21"
             android:layout_below="@+id/button21"
-            android:layout_marginTop="23dp"
-            android:text="ELA" />
+            android:textAllCaps="false"
+            android:text="Monitoring Report on Annual Investment Program - Climate Change Expenditure Tagging (AIP-CCET) for Province/City/Municipality"
+            android:gravity="left|center_vertical"/>
 
         <Button
             android:id="@+id/button23"
@@ -247,8 +270,405 @@
             android:layout_alignLeft="@+id/button22"
             android:layout_alignStart="@+id/button22"
             android:layout_below="@+id/button22"
-            android:layout_marginTop="17dp"
-            android:text="PDPFP" />
+            android:textAllCaps="false"
+            android:text="Newly Elected Officials (NEO) Program"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button23"
+            android:layout_alignStart="@+id/button23"
+            android:layout_below="@+id/button23"
+            android:textAllCaps="false"
+            android:text="Public-Private Partnership for the People Initiative for Local Governments (LGU P4)"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button24"
+            android:layout_alignStart="@+id/button24"
+            android:layout_below="@+id/button24"
+            android:textAllCaps="false"
+            android:text="Business Permits and Licensing System (BPLS)"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button25"
+            android:layout_alignStart="@+id/button25"
+            android:layout_below="@+id/button25"
+            android:textAllCaps="false"
+            android:text="Business Permits and Licensing System (BPLS) -New"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button26"
+            android:layout_alignStart="@+id/button26"
+            android:layout_below="@+id/button26"
+            android:textAllCaps="false"
+            android:text="Konkreto at Ayos na Lansangan ang Daan Tungo sa Pangkalahatang Kaunlaran (KALSADA)"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button27"
+            android:layout_alignStart="@+id/button27"
+            android:layout_below="@+id/button27"
+            android:textAllCaps="false"
+            android:text="Conditional Matching Grant to Provinces (CMGP)"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button28"
+            android:layout_alignStart="@+id/button28"
+            android:layout_below="@+id/button28"
+            android:textAllCaps="false"
+            android:text="Local Economic Development for Local Government Units (LED4LGUs)"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button29"
+            android:layout_alignStart="@+id/button29"
+            android:layout_below="@+id/button29"
+            android:textAllCaps="false"
+            android:text="Resource Mobilization, Financial Management and Analysis for Local Governments"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+        android:id="@+id/button31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button30"
+        android:layout_alignStart="@+id/button30"
+        android:layout_below="@+id/button30"
+        android:textAllCaps="false"
+        android:text="Local Investment and Incentives Code (LIIC)"
+        android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button31"
+            android:layout_alignStart="@+id/button31"
+            android:layout_below="@+id/button31"
+            android:textAllCaps="false"
+            android:text="LGU Compliance on the Creation of LCASSPS and Solid Waste and Clean Air Act"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button32"
+            android:layout_alignStart="@+id/button32"
+            android:layout_below="@+id/button32"
+            android:textAllCaps="false"
+            android:text="PAyapa at MAsaganang PamayaNAn (PAMANA) Pillar 3"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button33"
+            android:layout_alignStart="@+id/button33"
+            android:layout_below="@+id/button33"
+            android:textAllCaps="false"
+            android:text="PAyapa at MAsaganang PamayaNAn (PAMANA) Pillar 1"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button34"
+            android:layout_alignStart="@+id/button34"
+            android:layout_below="@+id/button34"
+            android:textAllCaps="false"
+            android:text="Provision of Peace and Order Council (POC) Secretariat"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button35"
+            android:layout_alignStart="@+id/button35"
+            android:layout_below="@+id/button35"
+            android:textAllCaps="false"
+            android:text="Comprehensive Local Integration Program (CLIP)"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button36"
+            android:layout_alignStart="@+id/button36"
+            android:layout_below="@+id/button36"
+            android:textAllCaps="false"
+            android:text="Bottom-Up Budgeting (BuB) Infra Projects"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button37"
+            android:layout_alignStart="@+id/button37"
+            android:layout_below="@+id/button37"
+            android:textAllCaps="false"
+            android:text="Monitoring Report for Bottom-Up Budgeting (BuB) 2016 Evacuation"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button38"
+            android:layout_alignStart="@+id/button38"
+            android:layout_below="@+id/button38"
+            android:textAllCaps="false"
+            android:text="Monitoring Report for Bottom-Up Budgeting (BuB)-Local Access 2014"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button39"
+            android:layout_alignStart="@+id/button39"
+            android:layout_below="@+id/button39"
+            android:textAllCaps="false"
+            android:text="Monitoring Report for Bottom-Up Budgeting (BuB) Other Projects"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button40"
+            android:layout_alignStart="@+id/button40"
+            android:layout_below="@+id/button40"
+            android:textAllCaps="false"
+            android:text="Provision of Potable Water Supply-SAGANA AT LIGTAS NA TUBIG SA LAHAT (SALINTUBIG)"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button41"
+            android:layout_alignStart="@+id/button41"
+            android:layout_below="@+id/button41"
+            android:textAllCaps="false"
+            android:text="Assistance to Disadvantaged Municipalities (ADM)"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button42"
+            android:layout_alignStart="@+id/button42"
+            android:layout_below="@+id/button42"
+            android:textAllCaps="false"
+            android:text="Institutionalizing Gender Responsive Local Governance"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button43"
+            android:layout_alignStart="@+id/button43"
+            android:layout_below="@+id/button43"
+            android:textAllCaps="false"
+            android:text="LGU 2018 Gender and Development (GAD) Plan and Budget"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button44"
+            android:layout_alignStart="@+id/button44"
+            android:layout_below="@+id/button44"
+            android:textAllCaps="false"
+            android:text="LGU 2017 Gender and Development (GAD) Plan and Budget"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button45"
+            android:layout_alignStart="@+id/button45"
+            android:layout_below="@+id/button45"
+            android:textAllCaps="false"
+            android:text="LGU 2016 Gender and Development (GAD) Accomplishment Report"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button46"
+            android:layout_alignStart="@+id/button46"
+            android:layout_below="@+id/button46"
+            android:textAllCaps="false"
+            android:text="LGU Gender and Development (GAD) Code"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button47"
+            android:layout_alignStart="@+id/button47"
+            android:layout_below="@+id/button47"
+            android:textAllCaps="false"
+            android:text="LGU Gender and Development (GAD)-Responsive Comprehensive Development Plan (CDP)"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button48"
+            android:layout_alignStart="@+id/button48"
+            android:layout_below="@+id/button48"
+            android:textAllCaps="false"
+            android:text="LGU Gender and Development (GAD) Database"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button49"
+            android:layout_alignStart="@+id/button49"
+            android:layout_below="@+id/button49"
+            android:textAllCaps="false"
+            android:text="LGU Gender and Development (GAD) Focal Point System (FPS)"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button50"
+            android:layout_alignStart="@+id/button50"
+            android:layout_below="@+id/button50"
+            android:textAllCaps="false"
+            android:text="Establishment of  Local Committees on Anti-trafficking and Violence Against Women and Their Children (LCAT-VAWC)"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button51"
+            android:layout_alignStart="@+id/button51"
+            android:layout_below="@+id/button51"
+            android:textAllCaps="false"
+            android:text="Search for Outstanding Barangay Peace and Order Councils (BPOCs)"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button52"
+            android:layout_alignStart="@+id/button52"
+            android:layout_below="@+id/button52"
+            android:textAllCaps="false"
+            android:text="LGU Compliance to Gender and Development (GAD)"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button53"
+            android:layout_alignStart="@+id/button53"
+            android:layout_below="@+id/button53"
+            android:textAllCaps="false"
+            android:text="LGU 201 Profile"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button54"
+            android:layout_alignStart="@+id/button54"
+            android:layout_below="@+id/button54"
+            android:textAllCaps="false"
+            android:text="Disaster Risk Reduction Management (DRRM)  Module"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button55"
+            android:layout_alignStart="@+id/button55"
+            android:layout_below="@+id/button55"
+            android:textAllCaps="false"
+            android:text="LGU Infrastructures Module"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button56"
+            android:layout_alignStart="@+id/button56"
+            android:layout_below="@+id/button56"
+            android:textAllCaps="false"
+            android:text="Elective Local Officials Profile Database (ELOPDS)"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button57"
+            android:layout_alignStart="@+id/button57"
+            android:layout_below="@+id/button57"
+            android:textAllCaps="false"
+            android:text="Programs and Projects Monitoring System (PPMS) Images Uploading"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/button59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button58"
+            android:layout_alignStart="@+id/button58"
+            android:layout_below="@+id/button58"
+            android:textAllCaps="false"
+            android:text="Masterlist of Local Officials"
+            android:gravity="left|center_vertical"/>
 
     </RelativeLayout>
 </ScrollView>
